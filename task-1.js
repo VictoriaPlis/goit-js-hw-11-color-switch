@@ -8,8 +8,8 @@ const colors = [
 ];
 
 const bodyRef = document.querySelector("body");
-const startButtonRef = document.querySelector("[data-action = start ]");
-const stopButtonRef = document.querySelector("[data-action = stop ]");
+const startButtonRef = document.querySelector("[data-action='start']");
+const stopButtonRef = document.querySelector("[data-action='stop']");
 const CHANGE_COLORS_DELAY = 1000;
 
 let colorSwitch = null;
